@@ -1,49 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Benefícios Comunitários</title>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="jefferson">
-      <div class="FEIRAS-e-COZINHAS">
-        <div class="div"></div>
-        <p class="feiras-e-cozinhas-t">Mapas de feiras e <br />cozinhas comunitárias</p>
-        <p class="feiras-e-cozinhas">
-          Veja no celular <br />os locais mais próximos <br />para retirada de <br />alimentos.
-        </p>
-        <img class="img" src="images/Feiras e cozinhas - img.png" />
-      </div>
-      <div class="ALIMENTAO">
-        <div class="div"></div>
-        <p class="alimenta-o-t-tulo">Alimentação mais <br />barata e nutritiva</p>
-        <p class="alimenta-o">
-          Mais acesso a<br />
-          comida fresca, <br />menos dependência <br />de ultraprocessados.
-        </p>
-        <img class="alimentao-img" src="images/Alimentação - img.png" />
-      </div>
-      <div class="AGRICULTOR">
-        <div class="div"></div>
-        <p class="agricultor-t-tulo">Acesso direto ao agricultor local</p>
-        <p class="agricultor">
-          Comprar frutas, <br />verduras e legumes <br />sem atravessadores, <br />com preço justo.
-        </p>
-        <img class="agricultor-img" src="images/Agricultor - img.png" />
-      </div>
-      <div class="SOLIDARIEDADE">
-        <div class="div"></div>
-        <div class="solidariedade-t-tulo">Rede de solidariedade</div>
-        <p class="solidariedade">
-          Se houver sobra de <br />produção, ela pode chegar <br />à sua comunidade através de <br />doações ou preços
-          populares.
-        </p>
-        <img class="solidariedade-img" src="images/Solidariedade - img.png" />
-      </div>
-      <p class="t-TULO">Benefícios para moradores <br />e comunidades cadastradas</p>
-      <img class="LOGO" src="img/LOGO.png" />
-    </div>
+    <main class="benefits">
+      <h1 class="benefits__title">
+        Benefícios para moradores <br />e comunidades cadastradas
+      </h1>
+
+      <section class="benefits__grid">
+        <article class="benefit-card">
+          <img src="images/Agricultor - img.png" alt="Agricultor local" class="benefit-card__image" />
+          <h2 class="benefit-card__title">Acesso direto ao agricultor local</h2>
+          <p class="benefit-card__text">
+            Comprar frutas, verduras e legumes sem atravessadores, com preço justo.
+          </p>
+        </article>
+
+        <article class="benefit-card">
+          <img src="images/Alimentação - img.png" alt="Alimentação saudável" class="benefit-card__image" />
+          <h2 class="benefit-card__title">Alimentação mais barata e nutritiva</h2>
+          <p class="benefit-card__text">
+            Mais acesso a comida fresca, menos dependência de ultraprocessados.
+          </p>
+        </article>
+
+        <article class="benefit-card">
+          <img src="images/Feiras e cozinhas - img.png" alt="Feiras e cozinhas comunitárias" class="benefit-card__image" />
+          <h2 class="benefit-card__title">Mapas de feiras e cozinhas comunitárias</h2>
+          <p class="benefit-card__text">
+            Veja no celular os locais mais próximos para retirada de alimentos.
+          </p>
+        </article>
+
+        <article class="benefit-card solidarity">
+          <img src="images/Solidariedade - img.png" alt="Rede de solidariedade" class="benefit-card__image" />
+          <h2 class="benefit-card__title">Rede de solidariedade</h2>
+          <p class="benefit-card__text">
+            Se houver sobra de produção, ela chegará sua comunidade através de doações ou preços populares.
+          </p>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
