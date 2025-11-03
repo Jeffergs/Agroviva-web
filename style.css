@@ -1,0 +1,224 @@
+.jefferson {
+  background: #C3FFD9 ;
+  background: linear-gradient(174deg,rgba(195, 255, 217, 1) 15%, rgba(233, 242, 235, 1) 90%
+  );
+  width: 100%;
+  min-width: 1440px;
+  min-height: 926px;
+  position: relative;
+}
+
+.jefferson .FEIRAS-e-COZINHAS {
+  position: absolute;
+  top: 398px;
+  left: 741px;
+  width: 310px;
+  height: 406px;
+}
+
+.jefferson .div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 306px;
+  height: 406px;
+  background-color: #ffffff;  
+  border-radius: 20px;
+  border: 0.1px solid rgba(102, 102, 102, 0.5);
+  
+}
+
+.jefferson .feiras-e-cozinhas-t {
+  position: absolute;
+  top: 177px;
+  left: 17px;
+  width: 270px;
+  font-family: "Ubuntu-Bold", Helvetica;
+  font-weight: 700;
+  color: #053F10;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.jefferson .feiras-e-cozinhas {
+  position: absolute;
+  top: 249px;
+  left: 15px;
+  width: 280px;
+  font-family: "Ubuntu-Regular", Helvetica;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.57);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.jefferson .img {
+  position: absolute;
+  top: 15px;
+  left: calc(50.00% - 82px);
+  width: 167px;
+  height: 164px;
+  object-fit: cover;
+}
+
+.jefferson .ALIMENTAO {
+  position: absolute;
+  top: 398px;
+  left: 393px;
+  width: 310px;
+  height: 406px;
+}
+
+.jefferson .alimenta-o-t-tulo {
+  position: absolute;
+  top: 176px;
+  left: 41px;
+  width: 222px;
+  font-family: "Ubuntu-Bold", Helvetica;
+  font-weight: 700;
+  color: #053F10;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.jefferson .alimenta-o {
+  position: absolute;
+  top: 247px;
+  left: 18px;
+  width: 272px;
+  font-family: "Ubuntu-Regular", Helvetica;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.57);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.jefferson .alimentao-img {
+  position: absolute;
+  top: 15px;
+  left: calc(50.00% - 81px);
+  width: 167px;
+  height: 164px;
+  object-fit: cover;
+}
+
+.jefferson .AGRICULTOR {
+  position: absolute;
+  top: 398px;
+  left: 46px;
+  width: 310px;
+  height: 406px;
+}
+
+.jefferson .agricultor-t-tulo {
+  position: absolute;
+  top: 175px;
+  left: 51px;
+  width: 203px;
+  font-family: "Ubuntu-Bold", Helvetica;
+  font-weight: 700;
+  color: #053F10;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.jefferson .agricultor {
+  position: absolute;
+  top: 249px;
+  left: 9px;
+  width: 286px;
+  font-family: "Ubuntu-Regular", Helvetica;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.57);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.jefferson .agricultor-img {
+  position: absolute;
+  top: 15px;
+  left: calc(50.00% - 80px);
+  width: 167px;
+  height: 164px;
+  object-fit: cover;
+}
+
+.jefferson .SOLIDARIEDADE {
+  position: absolute;
+  top: 398px;
+  left: 1088px;
+  width: 310px;
+  height: 406px;
+}
+
+.jefferson .solidariedade-t-tulo {
+  position: absolute;
+  top: 176px;
+  left: 33px;
+  width: 246px;
+  font-family: "Ubuntu-Bold", Helvetica;
+  font-weight: 700;
+  color: #053F10;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.jefferson .solidariedade {
+  position: absolute;
+  top: 249px;
+  left: 12px;
+  width: 284px;
+  font-family: "Ubuntu-Regular", Helvetica;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.57);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.jefferson .solidariedade-img {
+  position: absolute;
+  top: 15px;
+  left: calc(50.00% - 83px);
+  width: 167px;
+  height: 164px;
+  object-fit: cover;
+}
+
+.jefferson .t-TULO {
+  position: absolute;
+  left: calc(50.00% - 446px);  
+  color: #27AE56;  
+  line-height: normal;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 69px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.jefferson .LOGO {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: 136px;
+  height: 135px;
+  aspect-ratio: 0.99;
+  object-fit: cover;
+}
